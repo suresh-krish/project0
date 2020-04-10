@@ -1,97 +1,126 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
 }
-body {
-    background-color: orange;
-}
-nav {
-    background-color: grey;
-    height: 60px;
-    width: 100%;
 
+body {
+  background-color: orange;
 }
+
+nav {
+  background-color: grey;
+  height: 60px;
+  width: 100%;
+}
+
 label.logo {
-    color: whitesmoke;
-    font-family: Helvetica;
-    font-size: 40px;
-    line-height: 60px;
-    padding: 0 80px;
-    font-weight: bold;
+  color: whitesmoke;
+  font-family: Helvetica;
+  font-size: 40px;
+  line-height: 60px;
+  padding: 0 80px;
+  font-weight: bold;
 }
+
 nav ul {
-    float: right;
-    margin-right: 20px;
-    list-style: none;
+  float: right;
+  margin-right: 20px;
+  list-style: none;
 }
+
 nav ul li {
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 50px;
-    padding-top: 0%;
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 50px;
+  padding-top: 0%;
 }
-nav ul li a{
-    color: white;
-    font-size: 18px;
+
+nav ul li a {
+  color: white;
+  font-size: 18px;
 }
+
 a:hover {
-    color: rgb(199, 38, 65);
-    transition: .5s;
+  color: #c72641;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .grid {
-    background-color: green;
-    display: grid;
-    padding: 20px;
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
-    grid-template-columns: 200px 200px auto;
+  background-color: green;
+  display: -ms-grid;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  -ms-grid-columns: 200px 200px auto;
+      grid-template-columns: 200px 200px auto;
 }
 
 .grid-item {
-    background-color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
 }
+
 table.cat {
-    width: 100%;
+  width: 100%;
 }
 
 .cat ol {
-    padding-left: 100px;
+  padding-left: 100px;
 }
+
 .cat tr th {
-    font-family: impact;
-    font-size: 40px;
-    color: rgb(113, 64, 206);
+  font-family: impact;
+  font-size: 40px;
+  color: #7140ce;
 }
+
 .cat ol li {
-    font-family: Georgia;
-    font-size: 20px;
-    padding-left: 0px;
-    color:;
+  font-family: Georgia;
+  font-size: 20px;
+  padding-left: 0px;
 }
+
 .container {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .container > div {
-    background-color: black;
-    color: whitesmoke;
-    font-size: 20px;
-    margin: 40px;
-    padding: 20px;
-    width: 100px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 40px;
+  padding: 20px;
+  width: 100px;
 }
 
-
-ol > li{
-    color: antiquewhite;
+ol > li {
+  color: antiquewhite;
 }
+
 form {
-    padding-left: 80px;
+  padding-left: 80px;
 }
+
+h1 h5 {
+  padding-right: 20px;
+}
+
+hr {
+  border-radius: 10px;
+}
+
+table td li {
+  padding-right: 80px;
+  color: black;
+}
+/*# sourceMappingURL=Forcss.css.map */

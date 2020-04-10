@@ -60,12 +60,12 @@ table.cat {
 }
 
 .cat ol {
-    padding-left: 200px;
+    padding-left: 100px;
 }
 .cat tr th {
     font-family: impact;
     font-size: 40px;
-    color: rgb(184, 186, 187);
+    color: rgb(113, 64, 206);
 }
 .cat ol li {
     font-family: Georgia;
@@ -80,17 +80,18 @@ table.cat {
 }
 
 .container > div {
-    background-color: springgreen;
+    background-color: black;
+    color: whitesmoke;
     font-size: 20px;
-    margin: 20px;
+    margin: 40px;
     padding: 20px;
     width: 100px;
 }
-select {
-    width : 10%;
-    /* font-size: medium; */
+
+
+ol > li{
+    color: antiquewhite;
 }
-label {
-    font-size: 30px;
-    padding-left: 50px;
+form {
+    padding-left: 80px;
 }

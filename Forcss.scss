@@ -1,4 +1,4 @@
-$variable : orange;
+$variable : #FC8019;
 $variable1 :  grey;
 $variable2 : whitesmoke;
 $variable3 : white;
@@ -101,6 +101,7 @@ ol > li{
 }
 form {
     padding-left: 80px;
+    width: 150px;
 }
 h1 h5 {
     padding-right: 20px;
@@ -116,4 +117,5 @@ table {
         }
 
     }
+
 }

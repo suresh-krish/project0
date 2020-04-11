@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: orange;
+  background-color: #FC8019;
 }
 
 nav {
@@ -109,6 +109,7 @@ ol > li {
 
 form {
   padding-left: 80px;
+  width: 150px;
 }
 
 h1 h5 {
